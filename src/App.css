@@ -129,8 +129,12 @@ li:hover{
     margin-top: 15px;
   }
 
+  .form input{
+    margin-top: 2px;
+  }
+
   button{
-    margin-top: 6px;
+    margin-top: 8px;
   }
 
 }
