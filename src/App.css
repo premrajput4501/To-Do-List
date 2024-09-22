@@ -1,5 +1,5 @@
 body {
-  background-color: #d5a790;
+  background-color: #764730;
   min-height: 90vh;
   /* box-sizing: border-box; */
   display: flex;
@@ -21,19 +21,18 @@ body {
   background-size: 12px 26px;
   border-radius: 20px;
   box-shadow: 4px 3px 7px 2px #00000040;
-  padding: 20px 40px;
+  padding: 10px 40px;
 }
 
 .heading {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 1%;
 }
 
 .heading h1 {
   transform: rotate(2deg);
-  padding: 0.2rem 1.2rem;
+  padding: 3px 15px;
   border-radius: 20% 5% 20% 5%/5% 20% 25% 20%;
   background-color: rgb(255, 188, 73);
   font-size: 14pt;
@@ -43,11 +42,10 @@ body {
 
 .heading h1:hover{
   cursor: pointer;
-  transform: scale(1.1);
+  transform: scale(1.08) rotate(0deg);
 }
 
 .form input {
-  padding: 0px 0px;
   background-color: transparent;
   display: flex;
   align-items: center;
@@ -60,6 +58,7 @@ body {
   font-size: 12pt;
   color: hsl(0, 0%, 0%);
   width: 100%;
+  margin-top: 10px  ;
   margin-bottom: 20px;
 }
 
@@ -119,6 +118,7 @@ li {
 }
 
 li:hover{
+  user-select: none;
   cursor: pointer;
   transform: scale(1.06);
 }
